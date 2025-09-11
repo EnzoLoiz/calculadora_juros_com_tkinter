@@ -28,11 +28,11 @@ def fazer_calculo():
     tipo_conta=tipo_de_contas.get()
     choice_tempo= tipo_de_tempo.get()
 
-    if choice_tempo == '1':
+    if choice_tempo == "Dia":
         tempo = tempo_escolhido / 365
-    elif choice_tempo == '2':
+    elif choice_tempo == "Mês":
         tempo = tempo_escolhido / 12
-    elif choice_tempo == '3':
+    elif choice_tempo == "Ano":
         tempo = tempo_escolhido 
 
 
